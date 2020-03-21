@@ -15,7 +15,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,vue}": "npm run lint",
+    "*.{js,vue}": "npm run lint && npm run test",
     "*.{css,vue}": "stylelint"
   },
   "husky": {
