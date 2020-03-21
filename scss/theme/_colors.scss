@@ -1,0 +1,33 @@
+// テーマカラー
+$primary: #009744;
+$primary-light: #e2f1e3;
+$primary-shadow: #046831;
+$accent: #e39d97;
+$accent-light: #ffe9e7;
+$accent-shadow: #d17b73;
+
+// 基本色
+$black: #232832;
+$gray: #828282;
+$gray-light: rgba($gray, 0.1);
+$white: #fff;
+
+// 線の色
+$borderColor: rgba(black, 0.12);
+
+// 背景色
+$background: rgba(248, 248, 248, 0.92);
+$on-background: $black;
+
+// コンテンツ背景色
+$surface: $white;
+$on-surface: $black;
+
+// 無効色
+$disabled: lighten($gray, 25%);
+$on-disabled: $white;
+
+// 基本の影色
+@mixin shadow() {
+  box-shadow: 0 0 $baseSize * 0.5 lighten($black, 15%);
+}
